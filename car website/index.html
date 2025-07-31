@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .feature {
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>    
+    <header>
+        <h1>Welcome to CarZone</h1>
+        <p>Your one-stop solution for buying, selling, and renting cars</p>
+    </header>
+    <nav>
+        <a href="#buy">Buy</a>
+        <a href="#sell">Sell</a>
+        <a href="#rent">Rent</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="buy">
+        <h2>Buy a Car</h2>
+        <p>Explore our wide range of cars available for purchase.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Affordable Prices</h3>
+                <p>Find cars that fit your budget.</p>
+            </div>
+            <div class="feature">
+                <h3>Certified Vehicles</h3>
+                <p>All cars are inspected and certified.</p>
+            </div>
+            <div class="feature">
+                <h3>Easy Financing</h3>
+                <p>Get financing options tailored to your needs.</p>
+            </div>
+        </div>
+    </section>
+    <section id="sell">
+        <h2>Sell Your Car</h2>
+        <p>Get the best value for your car with our hassle-free selling process.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Quick Evaluation</h3>
+                <p>Get your car evaluated instantly.</p>
+            </div>
+            <div class="feature">
+                <h3>Best Offers</h3>
+                <p>Receive competitive offers for your car.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure Transactions</h3>
+                <p>Sell your car safely and securely.</p>
+            </div>
+            <div class="feature">
+                <h3>Upload Photos</h3>
+                <p>Showcase your car with high-quality images.</p>
+                <input type="file" id="carPhotos" name="carPhotos" accept="image/*" multiple>
+            </div>
+            <div class="feature">
+                <h3>Interactive Pricing Tool</h3>
+                <p>Use our tool to estimate the value of your car.</p>
+                <button onclick="alert('Pricing tool coming soon!')">Try Now</button>
+                <div class="car-photos">
+                    <img src="https://via.placeholder.com/300x200?text=Car+1" alt="Car 1" style="width:100%; margin-top:10px;">
+                    <img src="car2.jpg" alt="Car 2" style="width:100%; margin-top:10px;">
+                    <img src="car3.jpg" alt="Car 3" style="width:100%; margin-top:10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rent">
+        <h2>Rent a Car</h2>
+        <p>Choose from a variety of cars available for rent.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Flexible Plans</h3>
+                <p>Rent cars for short or long durations.</p>
+            </div>
+            <div class="feature">
+                <h3>Wide Selection</h3>
+                <p>Pick the car that suits your needs.</p>
+            </div>
+            <div class="feature">
+                <h3>Affordable Rates</h3>
+                <p>Enjoy competitive rental prices.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 CarZone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<html>
+    <nav>
+        <p>it's a car zone </p>
+    </nav>
+
+
+</html>
+
+
+ 
